@@ -9,8 +9,6 @@ start_letter = input("startswith() please enter a character: ")
 
 #reverse both strings and use endswith function
 
-x=user_string[::-1].endswith(start_letter[::-1])
-print(x)
 if user_string[::-1].endswith(start_letter[::-1]) == True:
     print(True)
 else:
