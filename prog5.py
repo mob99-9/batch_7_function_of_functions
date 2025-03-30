@@ -7,7 +7,7 @@ user_string = input("Please enter a string: ")
 
 start_letter = input("startswith() please enter a character: ")
 
-#remove the start letter to the user string using lstrip to check if it starts with it
+#reverse both strings and use endswith function
 
 if user_string[::-1].endswith(start_letter[::-1]) == True:
     print(True)
