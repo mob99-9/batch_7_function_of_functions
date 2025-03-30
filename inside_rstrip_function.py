@@ -24,4 +24,4 @@ new_string += user_string.strip()
 
 #print the new string
 
-print(new_string)
+print(new_string) 
